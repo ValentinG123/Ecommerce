@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+/*BUTTONS*/
+.bg-btn{
+  width: 220px;
+  height: 60px;
+  border: none;
+  font-family: 'Taviraj', serif !important;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*BACKGROUNDS*/
+.btn-bg{
+  background:  #D84727;
+
+}
+.heart-bg{
+  color:  #D84727;
+
+}
+.bg{
+  background: #F1DDC9;
+}
+/*FONTS*/
+.ff{
+  font-family: 'Taviraj', serif !important;
+}
+/*SIZES*/
+.w-30{
+  width: 25%;
+}
+.mt-25{
+  margin-top: 100px;
+}
+.my-8{
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.my-6{
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+.mx-100{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.top-10{
+  top: -10%;
+}
+.z-index{
+  z-index: 10;
+}
+/*Hover*/
+
+.card-content :hover{
+  transform: scale(1.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo-inicio{
+  width: 350px;
+  height: 450px;
+  opacity: .9;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.img-content{
+  top: 15%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info{
+  font-family: 'Nunito', sans-serif;
+}
+.img-box{
+  width: 130px;
+  height: 100px;
+}
+.img-product{
+  width: 60px;
+  height: 60px;
+}
+.img-side{
+  height: 500px;
+  width: 100%;
+  top: 10%;
+  right: 20%;
 }
